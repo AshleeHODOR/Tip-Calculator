@@ -1,0 +1,78 @@
+body {
+    background-color: #2e8b57;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+    color: #f0f8ff; 
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #006400;
+    border-bottom: 3px solid #8b4513;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand, .nav-link {
+    color: #e0ffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* Main Content and Containers */
+h1, h4 {
+    font-family: 'Impact', sans-serif;
+    color: #ffdab9; 
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+    text-align: center;
+    color: #f0f8ff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffdab9;
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Styling */
+.card {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: rgba(46, 139, 87, 0.7); 
+    border: none;
+    border-left: 10px solid #8b4513; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.blockquote {
+    font-size: 1rem;
+    font-style: italic;
+    color: #e0ffff;
+}
