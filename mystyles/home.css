@@ -1,15 +1,6 @@
-:root {
-    --color-leaf-green: #38761d;
-    --color-light-green: #d1e8c7;
-    --color-earth-brown: #8B4513;
-    --color-light-gray: #f2f4f2;
-    --color-text: #2c3e50;
-    --color-background: #ffffff;
-}
-
 body {
-    background-color: lightgray;
-    color: lightblue;
+    background-color: rgb(217, 171, 171);
+    color: rgb(4, 110, 145);
     font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
@@ -23,13 +14,9 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.navbar-brand, .nav-link {
-    color: #ffffff !important;
+.navbar-brand {
+    color: #0c0c0c;
     font-weight: bold;
-}
-
-.nav-link:hover {
-    color: rgb(139, 223, 139);
 }
 
 /* Main Content and Container */
@@ -37,7 +24,7 @@ body {
     max-width: 900px;
     margin: 40px auto;
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #242323;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;

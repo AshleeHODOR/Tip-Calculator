@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="./mystyles/mystyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
 </head>
@@ -36,9 +36,27 @@
 
     <div class="main-container">
         <h1>Hodor's Tip Calculator</h1>
-        <img src="tip calculator.png" alt="tip calculator image">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ut, vitae eum magni, hic pariatur omnis consectetur natus repellat iure dolores. Reiciendis quaerat fugiat corrupti, animi nostrum sequi veritatis ex.</p>
+
+    <div class="tip-calculator">
+        <h2>Tip Calculator</h2>
+        
+        <div>
+            <input id="amount" type="number" placeholder="Insert amount" >
+        </div>
+
+        <div class="buttons-container">
+            <button onclick="fivePercent()" class="btn btn-primary">5%</button>
+            <button onclick="sevenPercent()" class="btn btn-primary">7%</button>
+            <button onclick="tenPercent()" class="btn btn-primary">10%</button>
+            <button onclick="fiftysevenPercent()" class="btn btn-primary">57%</button>
+        </div>
+
+        <div>
+            <input id="result" type="number" placeholder="final amount">
+        </div>
     </div>
+    </div>
+
 
 <div class="card">
     <figure>
@@ -49,5 +67,6 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwjJ/6v/hP4+9p6z7+yQ+A7vF+E+g6vF+HwR+J+N7Sg56d6+5m5e+Sg5vT6e4" crossorigin="anonymous"></script>
+<script src="./scripts/calculator.js"></script>
 </body>
 </html>
